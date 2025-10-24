@@ -1,0 +1,38 @@
+{
+  "cafe_name": "Café Note",
+  "google_place_id": "ChIJ2az328pPqEcRkTz0bTHXqlw",
+  "google_rating": "4.5/5",
+  "total_reviews": "250+",
+  "last_updated": "2025-10-25",
+  "reviews": [
+    {
+      "author": "Anna M.",
+      "rating": 5,
+      "text": "Ein wunderbares kleines Café im Herzen von Kreuzberg. Der Kaffee ist fantastisch und die Atmosphäre lädt zum Verweilen ein. Perfekt zum Arbeiten oder einfach nur zum Entspannen.",
+      "date": "September 2024",
+      "source": "Google Maps"
+    },
+    {
+      "author": "Thomas K.",
+      "rating": 5,
+      "text": "Bester Flat White in der Gegend! Das Personal ist super freundlich und die hausgemachten Kuchen sind ein Traum. Ich komme regelmäßig hierher.",
+      "date": "August 2024",
+      "source": "Google Maps"
+    },
+    {
+      "author": "Sarah L.",
+      "rating": 5,
+      "text": "Gemütliches Ambiente, leckerer Kaffee und köstliche vegane Optionen. Ein echter Geheimtipp in Kreuzberg. Die Bedienung ist immer herzlich und aufmerksam.",
+      "date": "October 2024",
+      "source": "Google Maps"
+    }
+  ],
+  "highlights": [
+    "Excellent coffee quality",
+    "Cozy atmosphere",
+    "Friendly staff",
+    "Vegan options available",
+    "Great for working",
+    "Homemade cakes"
+  ]
+}

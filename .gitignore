@@ -1,0 +1,54 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Temporary files
+*.tmp
+*.log
+.cache/
+temp/
+
+# Build files (if needed later)
+dist/
+build/
+*.min.js
+*.min.css
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Node modules (if needed later)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Images - keep source but can ignore processed
+# images/source/*
+# !images/source/.gitkeep
+
+# Backup files
+*.bak
+*.backup
+*-backup.*
+
+# Development files
+scratch/
+notes.txt
+TODO.txt
+
+# System files
+*.pid
+*.seed
+*.pid.lock

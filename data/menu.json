@@ -1,0 +1,178 @@
+{
+  "cafe_name": "Café Note",
+  "currency": "EUR",
+  "last_updated": "2025-10-25",
+  "categories": [
+    {
+      "id": "coffee",
+      "name": "Kaffee & Getränke",
+      "name_en": "Coffee & Drinks",
+      "items": [
+        {
+          "name": "Espresso",
+          "price": 2.50,
+          "description": "Kraftvoller, aromatischer Espresso aus fair gehandelten Bohnen",
+          "vegan": true,
+          "vegetarian": true
+        },
+        {
+          "name": "Cappuccino",
+          "price": 3.50,
+          "description": "Perfekt ausbalanciert mit seidig-cremigem Milchschaum",
+          "vegan_option": true,
+          "vegetarian": true
+        },
+        {
+          "name": "Flat White",
+          "price": 3.80,
+          "description": "Samtig-weicher Milchkaffee nach australischer Art",
+          "vegan_option": true,
+          "vegetarian": true
+        },
+        {
+          "name": "Latte Macchiato",
+          "price": 3.80,
+          "description": "Geschichtete Kaffeespezialität mit heißer Milch",
+          "vegan_option": true,
+          "vegetarian": true
+        },
+        {
+          "name": "Cold Brew",
+          "price": 4.20,
+          "description": "Kalt extrahierter Kaffee – mild und erfrischend",
+          "vegan": true,
+          "vegetarian": true
+        },
+        {
+          "name": "Chai Latte",
+          "price": 3.90,
+          "description": "Würziger Gewürztee mit aufgeschäumter Milch",
+          "vegan_option": true,
+          "vegetarian": true
+        },
+        {
+          "name": "Hausgemachte Limonade",
+          "price": 4.50,
+          "description": "Frisch zubereitet mit saisonalen Früchten",
+          "vegan": true,
+          "vegetarian": true
+        },
+        {
+          "name": "Frisch gepresste Säfte",
+          "price": 5.50,
+          "description": "Orange, Apfel oder saisonale Mischungen",
+          "vegan": true,
+          "vegetarian": true
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "Essen & Snacks",
+      "name_en": "Food & Snacks",
+      "items": [
+        {
+          "name": "Frühstücks-Bowl",
+          "price": 7.90,
+          "description": "Joghurt, Granola, frische Früchte und Honig",
+          "vegetarian": true
+        },
+        {
+          "name": "Avocado Toast",
+          "price": 8.50,
+          "description": "Sauerteigbrot, Avocado, pochiertes Ei, Sesam",
+          "vegetarian": true
+        },
+        {
+          "name": "Bagel mit Lachs",
+          "price": 9.50,
+          "description": "Frischkäse, geräucherter Lachs, Kapern, Zwiebeln",
+          "vegetarian": false
+        },
+        {
+          "name": "Quiche des Tages",
+          "price": 7.50,
+          "description": "Täglich wechselnd mit frischem Salat",
+          "vegetarian": true
+        },
+        {
+          "name": "Hummus Plate",
+          "price": 8.90,
+          "description": "Hausgemachter Hummus, Gemüse, Oliven, Fladenbrot",
+          "vegan": true,
+          "vegetarian": true
+        },
+        {
+          "name": "Soup of the Day",
+          "price": 6.50,
+          "description": "Täglich frisch zubereitet mit Brot",
+          "vegetarian": true,
+          "vegan_option": true
+        }
+      ]
+    },
+    {
+      "id": "sweets",
+      "name": "Kuchen & Süßes",
+      "name_en": "Cakes & Sweets",
+      "items": [
+        {
+          "name": "Hausgemachter Käsekuchen",
+          "price": 4.50,
+          "description": "Cremig, luftig und unwiderstehlich lecker",
+          "vegetarian": true
+        },
+        {
+          "name": "Schokoladenkuchen",
+          "price": 4.50,
+          "description": "Saftig und intensiv schokoladig",
+          "vegetarian": true
+        },
+        {
+          "name": "Apfelstrudel",
+          "price": 4.80,
+          "description": "Traditionell mit Vanillesauce",
+          "vegetarian": true
+        },
+        {
+          "name": "Carrot Cake",
+          "price": 4.70,
+          "description": "Mit Frischkäse-Frosting und Walnüssen",
+          "vegetarian": true
+        },
+        {
+          "name": "Veganer Brownie",
+          "price": 3.90,
+          "description": "Fudgy und schokoladig – 100% vegan",
+          "vegan": true,
+          "vegetarian": true
+        },
+        {
+          "name": "Croissant",
+          "price": 2.80,
+          "description": "Butterig, knusprig, perfekt",
+          "vegetarian": true
+        },
+        {
+          "name": "Muffin des Tages",
+          "price": 3.50,
+          "description": "Täglich wechselnde Sorten",
+          "vegetarian": true
+        },
+        {
+          "name": "Cookie Selection",
+          "price": 2.50,
+          "description": "Chocolate Chip, Oatmeal Raisin oder Double Chocolate",
+          "vegetarian": true
+        }
+      ]
+    }
+  ],
+  "dietary_info": {
+    "vegan_options": true,
+    "vegetarian_options": true,
+    "gluten_free_options": true,
+    "lactose_free_options": true,
+    "note": "Bitte sprechen Sie uns an, wenn Sie besondere Ernährungswünsche haben."
+  }
+}

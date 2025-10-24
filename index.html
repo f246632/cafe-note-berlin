@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café Note - Ein gemütliches Café im Herzen von Berlin Kreuzberg. Genießen Sie erstklassigen Kaffee, hausgemachte Kuchen und eine einladende Atmosphäre.">
+    <meta name="keywords" content="Café Berlin, Kreuzberg, Oranienstraße, Kaffee, Café Note, Berlin Café">
+    <meta name="author" content="Café Note">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Café Note - Kreuzberg, Berlin">
+    <meta property="og:description" content="Ein gemütliches Café im Herzen von Berlin Kreuzberg">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/downloaded/cafe-note-1.jpg">
+
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Cafe",
+      "name": "Café Note",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Oranienstraße 193",
+        "addressLocality": "Berlin",
+        "postalCode": "10999",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "52.5019",
+        "longitude": "13.4204"
+      },
+      "url": "https://f246632.github.io/cafe-note-berlin/",
+      "telephone": "+49-30-XXXXXXXX",
+      "servesCuisine": "Café, Coffee, Pastries",
+      "priceRange": "€€",
+      "image": "images/downloaded/cafe-note-1.jpg"
+    }
+    </script>
+
+    <title>Café Note - Gemütliches Café in Kreuzberg, Berlin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Café Note</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Über Uns</a></li>
+                <li><a href="#menu" class="nav-link">Angebot</a></li>
+                <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                <li><a href="#location" class="nav-link">Standort</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Café Note</h1>
+            <p class="hero-subtitle fade-in-delay">Ihr gemütlicher Rückzugsort im Herzen von Kreuzberg</p>
+            <div class="hero-buttons fade-in-delay-2">
+                <a href="#menu" class="btn btn-primary">Unser Angebot</a>
+                <a href="#location" class="btn btn-secondary">Besuchen Sie uns</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Willkommen im Café Note</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">Im pulsierenden Herzen von Kreuzberg, auf der lebendigen Oranienstraße, finden Sie unser gemütliches Café Note – eine Oase der Ruhe und des Genusses.</p>
+                    <p>Wir sind mehr als nur ein Café. Wir sind ein Ort, an dem sich Menschen treffen, Geschichten ausgetauscht werden und unvergessliche Momente entstehen. Ob Sie einen perfekt zubereiteten Espresso genießen, an einem hausgemachten Kuchen naschen oder einfach die entspannte Atmosphäre auf sich wirken lassen möchten – bei uns sind Sie herzlich willkommen.</p>
+                    <p>Unser Café verbindet moderne Berliner Kultur mit zeitloser Gemütlichkeit. Jede Tasse wird mit Liebe zubereitet, jeder Gast mit Wertschätzung empfangen.</p>
+
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">☕</div>
+                            <h3>Erstklassiger Kaffee</h3>
+                            <p>Frisch geröstet und perfekt zubereitet</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🥐</div>
+                            <h3>Hausgemachtes</h3>
+                            <p>Frische Backwaren täglich</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🌿</div>
+                            <h3>Gemütliche Atmosphäre</h3>
+                            <p>Ihr Rückzugsort in Kreuzberg</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">📚</div>
+                            <h3>Arbeitsfreundlich</h3>
+                            <p>WLAN und ruhige Ecken</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-images">
+                    <div class="about-image-grid">
+                        <img src="images/downloaded/cafe-note-3.jpg" alt="Café Note Interior" class="about-img about-img-1">
+                        <img src="images/downloaded/cafe-note-4.jpg" alt="Café Note Atmosphere" class="about-img about-img-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unser Angebot</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Genießen Sie unsere sorgfältig ausgewählten Spezialitäten</p>
+            </div>
+
+            <div class="menu-categories">
+                <button class="menu-tab active" data-category="coffee">Kaffee & Getränke</button>
+                <button class="menu-tab" data-category="food">Essen & Snacks</button>
+                <button class="menu-tab" data-category="sweets">Kuchen & Süßes</button>
+            </div>
+
+            <div class="menu-content">
+                <!-- Coffee Menu -->
+                <div class="menu-category active" id="coffee">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Espresso</h3>
+                                <span class="price">€2.50</span>
+                            </div>
+                            <p>Kraftvoller, aromatischer Espresso aus fair gehandelten Bohnen</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Cappuccino</h3>
+                                <span class="price">€3.50</span>
+                            </div>
+                            <p>Perfekt ausbalanciert mit seidig-cremigem Milchschaum</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Flat White</h3>
+                                <span class="price">€3.80</span>
+                            </div>
+                            <p>Samtig-weicher Milchkaffee nach australischer Art</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Latte Macchiato</h3>
+                                <span class="price">€3.80</span>
+                            </div>
+                            <p>Geschichtete Kaffeespezialität mit heißer Milch</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Cold Brew</h3>
+                                <span class="price">€4.20</span>
+                            </div>
+                            <p>Kalt extrahierter Kaffee – mild und erfrischend</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Chai Latte</h3>
+                                <span class="price">€3.90</span>
+                            </div>
+                            <p>Würziger Gewürztee mit aufgeschäumter Milch</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Hausgemachte Limonade</h3>
+                                <span class="price">€4.50</span>
+                            </div>
+                            <p>Frisch zubereitet mit saisonalen Früchten</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Frisch gepresste Säfte</h3>
+                                <span class="price">€5.50</span>
+                            </div>
+                            <p>Orange, Apfel oder saisonale Mischungen</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food Menu -->
+                <div class="menu-category" id="food">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Frühstücks-Bowl</h3>
+                                <span class="price">€7.90</span>
+                            </div>
+                            <p>Joghurt, Granola, frische Früchte und Honig</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Avocado Toast</h3>
+                                <span class="price">€8.50</span>
+                            </div>
+                            <p>Sauerteigbrot, Avocado, pochiertes Ei, Sesam</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Bagel mit Lachs</h3>
+                                <span class="price">€9.50</span>
+                            </div>
+                            <p>Frischkäse, geräucherter Lachs, Kapern, Zwiebeln</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Quiche des Tages</h3>
+                                <span class="price">€7.50</span>
+                            </div>
+                            <p>Täglich wechselnd mit frischem Salat</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Hummus Plate</h3>
+                                <span class="price">€8.90</span>
+                            </div>
+                            <p>Hausgemachter Hummus, Gemüse, Oliven, Fladenbrot</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Soup of the Day</h3>
+                                <span class="price">€6.50</span>
+                            </div>
+                            <p>Täglich frisch zubereitet mit Brot</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sweets Menu -->
+                <div class="menu-category" id="sweets">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Hausgemachter Käsekuchen</h3>
+                                <span class="price">€4.50</span>
+                            </div>
+                            <p>Cremig, luftig und unwiderstehlich lecker</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Schokoladenkuchen</h3>
+                                <span class="price">€4.50</span>
+                            </div>
+                            <p>Saftig und intensiv schokoladig</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Apfelstrudel</h3>
+                                <span class="price">€4.80</span>
+                            </div>
+                            <p>Traditionell mit Vanillesauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Carrot Cake</h3>
+                                <span class="price">€4.70</span>
+                            </div>
+                            <p>Mit Frischkäse-Frosting und Walnüssen</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Veganer Brownie</h3>
+                                <span class="price">€3.90</span>
+                            </div>
+                            <p>Fudgy und schokoladig – 100% vegan</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Croissant</h3>
+                                <span class="price">€2.80</span>
+                            </div>
+                            <p>Butterig, knusprig, perfekt</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Muffin des Tages</h3>
+                                <span class="price">€3.50</span>
+                            </div>
+                            <p>Täglich wechselnde Sorten</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Cookie Selection</h3>
+                                <span class="price">€2.50</span>
+                            </div>
+                            <p>Chocolate Chip, Oatmeal Raisin oder Double Chocolate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-note">
+                <p><strong>Hinweis:</strong> Wir bieten auch vegane und glutenfreie Optionen an. Sprechen Sie uns gerne an!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unsere Galerie</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Ein Blick in unser Café</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-index="0">
+                    <img src="images/downloaded/cafe-note-1.jpg" alt="Café Note Eingang" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="1">
+                    <img src="images/downloaded/cafe-note-2.jpg" alt="Café Interior" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="2">
+                    <img src="images/downloaded/cafe-note-3.jpg" alt="Gemütliche Atmosphäre" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="3">
+                    <img src="images/downloaded/cafe-note-4.jpg" alt="Kaffee-Spezialitäten" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="4">
+                    <img src="images/downloaded/cafe-note-5.jpg" alt="Innenraum Details" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="5">
+                    <img src="images/downloaded/cafe-note-6.jpg" alt="Café Ambiente" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="6">
+                    <img src="images/downloaded/cafe-note-7.jpg" alt="Café Note Details" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="7">
+                    <img src="images/downloaded/cafe-note-8.jpg" alt="Café Interieur" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="8">
+                    <img src="images/downloaded/cafe-note-9.jpg" alt="Café Dekoration" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="9">
+                    <img src="images/downloaded/cafe-note-10.jpg" alt="Café Note Atmosphere" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Besuchen Sie uns</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-card">
+                        <h3>📍 Adresse</h3>
+                        <p>Oranienstraße 193<br>10999 Berlin<br>Deutschland</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>🕒 Öffnungszeiten</h3>
+                        <p>
+                            Montag - Freitag: 8:00 - 19:00<br>
+                            Samstag: 9:00 - 20:00<br>
+                            Sonntag: 9:00 - 19:00
+                        </p>
+                    </div>
+                    <div class="info-card">
+                        <h3>🚇 Anfahrt</h3>
+                        <p>
+                            <strong>U-Bahn:</strong> U8 Kottbusser Tor (5 Min.)<br>
+                            <strong>Bus:</strong> M29, 140 (Haltestelle Oranienplatz)<br>
+                            <strong>Fahrrad:</strong> Fahrradständer vorhanden
+                        </p>
+                    </div>
+                    <div class="info-card">
+                        <h3>ℹ️ Hinweise</h3>
+                        <p>
+                            ✓ Kostenloses WLAN<br>
+                            ✓ Vegane Optionen<br>
+                            ✓ Laptop-freundlich<br>
+                            ✓ Haustiere willkommen
+                        </p>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.6447299999997!2d13.4182!3d52.5019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84fcbdf1bacda%3A0x5caa57d11d6f4c91!2sCaf%C3%A9%20Note!5e0!3m2!1sde!2sde!4v1234567890"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Was unsere Gäste sagen</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Ein wunderbares kleines Café im Herzen von Kreuzberg. Der Kaffee ist fantastisch und die Atmosphäre lädt zum Verweilen ein. Perfekt zum Arbeiten oder einfach nur zum Entspannen."</p>
+                    <div class="review-author">
+                        <strong>Anna M.</strong>
+                        <span>Google Bewertung</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Bester Flat White in der Gegend! Das Personal ist super freundlich und die hausgemachten Kuchen sind ein Traum. Ich komme regelmäßig hierher."</p>
+                    <div class="review-author">
+                        <strong>Thomas K.</strong>
+                        <span>Google Bewertung</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Gemütliches Ambiente, leckerer Kaffee und köstliche vegane Optionen. Ein echter Geheimtipp in Kreuzberg. Die Bedienung ist immer herzlich und aufmerksam."</p>
+                    <div class="review-author">
+                        <strong>Sarah L.</strong>
+                        <span>Google Bewertung</span>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-cta">
+                <a href="https://www.google.com/maps/search/?api=1&query=Café%20Note&query_place_id=ChIJ2az328pPqEcRkTz0bTHXqlw" target="_blank" class="btn btn-primary">Mehr Bewertungen auf Google</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontaktieren Sie uns</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Wir freuen uns auf Ihre Nachricht</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3>Telefon</h3>
+                            <p><a href="tel:+493012345678">Oranienstraße 193</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h3>E-Mail</h3>
+                            <p><a href="mailto:info@cafenote-berlin.de"></a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Adresse</h3>
+                            <p>Oranienstraße 193<br>10999 Berlin</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h3>Folgen Sie uns</h3>
+                        <div class="social-icons">
+                            <a href="#" target="_blank" aria-label="Instagram">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                            </a>
+                            <a href="#" target="_blank" aria-label="Facebook">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-Mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nachricht *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Café Note</h3>
+                    <p>Ihr gemütlicher Rückzugsort im Herzen von Kreuzberg seit 2020</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Schnelllinks</h3>
+                    <ul>
+                        <li><a href="#about">Über uns</a></li>
+                        <li><a href="#menu">Speisekarte</a></li>
+                        <li><a href="#gallery">Galerie</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Öffnungszeiten</h3>
+                    <p>Mo-Fr: 8:00 - 19:00<br>Sa: 9:00 - 20:00<br>So: 9:00 - 19:00</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontakt</h3>
+                    <p>Oranienstraße 193<br>10999 Berlin<br>Tel: Oranienstraße 193</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Café Note Berlin. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <span class="lightbox-prev">&#10094;</span>
+        <span class="lightbox-next">&#10095;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Gallery Image">
+        <div class="lightbox-caption"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
